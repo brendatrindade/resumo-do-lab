@@ -48,3 +48,41 @@ Consolidar conhecimentos em **computação em nuvem** aplicados na criação e g
 
 ## Conclusão
 Com este laboratório, consegui aplicar os conceitos de **infraestrutura em nuvem** em um cenário prático. A experiência reforçou a importância de entender os diferentes parâmetros de configuração de uma VM, os impactos em custo e desempenho, além de boas práticas de segurança.  
+
+# Resumo do Lab - Banco de Dados no Azure
+
+Este repositório contém minhas anotações, resumos e dicas sobre a configuração de uma **instância de Banco de Dados no Microsoft Azure**, desenvolvidas durante o desafio da DIO.  
+
+## Objetivo do Lab
+Praticar o processo de **criação e configuração de um banco de dados gerenciado no Azure**, entendendo suas opções de uso, segurança e custos.
+
+## O que aprendi
+- Diferença entre **Banco de Dados local** e **Banco de Dados na nuvem**.  
+- Como criar uma **Instância Gerenciada de SQL Server no Azure**.  
+- Escolher parâmetros como:  
+  - Nome do servidor e banco de dados  
+  - Região do datacenter  
+  - Tipo de autenticação (SQL ou Azure AD)  
+  - Definição de usuário e senha de administrador  
+- Configurar **firewall e rede** para permitir conexões externas.  
+- Testar conexão com o banco usando ferramentas como **Azure Data Studio** ou **SQL Server Management Studio (SSMS)**.  
+- Entender os **custos baseados em consumo** para bancos de dados na nuvem.  
+
+## Passo a passo
+1. Acessar o **Portal do Azure**.  
+2. Selecionar **Criar recurso > Banco de Dados SQL**.  
+3. Definir as configurações principais (nome, servidor, autenticação, região).  
+4. Ajustar parâmetros de desempenho (DTUs ou vCores, conforme necessidade).  
+5. Configurar rede e regras de firewall para permitir conexões.  
+6. Criar e validar a instância.  
+7. Testar o acesso ao banco com credenciais configuradas.  
+
+## Conclusão
+Este laboratório me permitiu praticar a configuração de um **Banco de Dados SQL no Azure**, entendendo os principais parâmetros técnicos e boas práticas de segurança.  
+
+
+---
+
+Criado como parte do desafio da [DIO](https://www.dio.me).  
+
+
